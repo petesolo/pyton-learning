@@ -2,7 +2,7 @@ def computepay(h,r):
     if 0 < h <= 40 and r > 0:
         regHrs = h
         totalPay = regHrs * r
-    elif h > 40 and r > 0:    
+    elif h > 40 and r > 0:
         otHrs = h - 40
         regHrs = h - otHrs
         regPay = regHrs * r
