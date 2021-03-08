@@ -17,7 +17,7 @@ now = dt.datetime.now()
 # dir1 = 'C:\\'
 # filePath = askopenfilename(filetypes = ftypes, initialdir = dir1, title = ttl)
 
-filePath = r"/Users/palizo/Downloads/RichardStocks.xlsx"
+filePath = r"/path/RichardStocks.xlsx"
 
 stocklist = pd.read_excel(filePath)
 
